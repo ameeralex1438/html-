@@ -1,0 +1,191 @@
+.header{
+margin:30px 0px 0px 0px;
+}
+ ul{
+display:inline-flex;
+float:right;
+padding-right:20px;
+margin-top:20px;
+
+}
+ li{
+list-style-type:none;
+padding-right:20px;
+font-size:20px;
+}
+
+li a {
+color:tomato;
+margin:10px;
+text-decoration:none;
+}
+
+.micky:hover{
+transform: scale(1.1);
+}
+
+.car:hover{
+transform: scale(1.1);
+}
+.person1:hover{
+transform: scale(1.1);
+}
+.cartoon{
+margin-left:50px;
+}
+.subscribe{
+padding:10px;
+border-radius:30px;
+margin:50px;
+background-color:white;
+color:tomato;
+width:200px;
+height:70px;
+}
+.subscribe:hover{
+background-color:tomato;
+color:white;
+}
+.search{
+width:250px;
+border:none;
+border-radius:10px;
+color:tomato;
+}
+body{
+background-color:black;
+}
+
+.submit{
+padding:10px;
+border-radius:30px;
+margin:0px 0px 0px 90px;
+background-color:tomato;
+color:black;
+width:200px;
+float:left;
+}
+.active1{
+background-color:tomato;
+color:black;
+padding:10px;
+}
+.active:hover{
+color:white;
+}
+.Read1{
+  background-color:tomato;
+  border:none;
+  color:white;
+  padding:15px;
+  border-radius: 10px;
+}
+.Read1:hover{
+  background-color:white;
+  color:tomato;
+}
+.browse{
+  background-color:tomato;
+  border:none;
+  color:white;
+  padding:13px;
+  border-radius: 10px;
+}
+.browse:hover{
+  background-color:white;
+  color:tomato;
+}
+.watch{
+  background-color:tomato;
+  border:none;
+  color:white;
+  padding:13px;
+  border-radius: 10px;
+}
+.watch:hover{
+  background-color:white;
+  color:tomato;
+}
+
+ol{
+float:left;
+margin-left:-40px;
+}
+.icons a{
+width:40px;
+height:40px;
+text-decoration:none;
+color:white;
+display:inline-flex;
+margin:0px 5px;
+border-radius:50%;
+position:relative;
+overflow:hidden;
+}
+
+.icons a .fa-brands{
+font-size:20px;
+line-height:40px;
+margin-left:10px;
+position:relative;
+z-index:10;
+transition:color 0.3s;
+}
+
+.icons a::after{
+content:'';
+width:100%;
+height:100%;
+top:-100px;
+left:0;
+background:tomato;
+position:absolute;
+transition:0.3s;
+}
+.icons a:hover::after{
+top:0;
+}
+.icons a:hover .fa-brands{
+color:white;
+}
+.footer li:hover{
+transform:skew(18deg);
+
+}
+.footer li{
+margin-bottom:10px;
+}
+.image1:hover{
+border-radius: 80%;
+}
+.image1{
+border-radius:10px;
+}
+.form input{
+background-color:black;
+margin:20px 10px;
+border:none;
+border-bottom:1px solid white;
+width:500px;
+outline:none;
+color:white;
+}
+textarea{
+background-color:black;
+margin:10px 10px;
+border:none;
+border-bottom:1px solid white;
+width:500px;
+height:100px;
+outline:none;
+color:white;
+}
+#contact{
+text-decoration:none;
+}
+.contact a{
+text-decoration:none;
+}
+.progress-bar{
+    background-color:tomato;
+}
