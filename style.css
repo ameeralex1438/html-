@@ -1,14 +1,60 @@
+@media only screen and (max-width: 1024px) {
+.cartoon{
+  font-size: 10px; 
+}
+img .person1{
+  margin-right: 150px;
+}
+.img1{
+  padding-right:280px;
+}
+.img3{
+  padding-right:80px;
+}
+.img4{
+  padding-right:80px;
+}
+.img5{
+ 
+  padding-right:60px;
+}
+.r3{
+  padding-left: 100px;
+}
+.r4{
+  padding-left: 100px;
+}
+.search{
+  width:100px;
+  border:none;
+  border-radius:10px;
+  color:tomato;
+}
+.header ul{
+  display:inline-flex; 
+  }
+.header li{
+    list-style-type:none;   
+ }
+ .header li a {
+  color:tomato; 
+  text-decoration:none;
+  }
+  .header .active1{
+    background-color:tomato;
+    color:black;
+    padding:10px;
+ }
+}
 
 .header{
-  margin:30px 0px 0px 0px;
+  margin-top:40px;
 }
 
  ul{
 display:inline-flex;
 float:right;
 padding-right:20px;
-
-
 }
  li{
 list-style-type:none;
@@ -24,14 +70,29 @@ text-decoration:none;
 
 .micky:hover{
 transform: scale(1.1);
+transition: 0.5s;
 }
 
 .car:hover{
 transform: scale(1.1);
+transition: 0.5s;
+}
+.person1{
+  width:350px;
+  margin-left: 50px;
 }
 .person1:hover{
 transform: scale(1.1);
+transition: 0.5s;
 }
+.person2:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+.person2{
+  width:300px;
+  height:450px;
+ }
 .cartoon{
 font-size: 40px;
 margin-left: 90px;
@@ -50,6 +111,7 @@ height:70px;
 .subscribe:hover{
 background-color:tomato;
 color:white;
+transition: 0.3s;
 }
 .search{
 width:250px;
@@ -60,6 +122,34 @@ color:tomato;
 body{
 background-color:black;
 }
+.img1{
+  width:870px;
+  height:400px;
+ 
+}
+.img2{
+  width:280px;
+  height:400px;
+  
+}
+.img3{
+  width:300px;
+  height:400px;
+
+}
+.img4{
+  width:300px;
+  height:400px;
+
+}
+.img5{
+  width:500px;
+  height:400px;
+}
+.r2{
+  margin-left: 100px;
+}
+
 
 .submit{
 padding:10px;
@@ -161,7 +251,8 @@ transform:skew(18deg);
 margin-bottom:10px;
 }
 .image1:hover{
-border-radius: 80%;
+border-radius: 60%;
+transition: 0.5s;
 }
 .image1{
 border-radius:10px;
