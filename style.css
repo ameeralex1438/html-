@@ -33,9 +33,10 @@ transform: scale(1.1);
 transform: scale(1.1);
 }
 .cartoon{
-font-size: 14px;
+font-size: 40px;
+margin-left: 90px;
 color:white;
-font-style: mistral;
+font-weight: 500;
 }
 .subscribe{
 padding:10px;
@@ -59,10 +60,7 @@ color:tomato;
 body{
 background-color:black;
 }
-.row1{
-  margin-top: 120px;
-  padding-bottom: 80px;
-}
+
 .submit{
 padding:10px;
 border-radius:30px;
